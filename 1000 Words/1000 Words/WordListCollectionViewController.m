@@ -7,7 +7,7 @@
 //
 
 #import "WordListCollectionViewController.h"
-#import "QuizPageViewController.h"
+#import "QuizTableViewController.h"
 
 @interface WordListCollectionViewController ()
 {
@@ -64,14 +64,14 @@
     return cell;
 }
 
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if ([segue.identifier isEqualToString:@"showQuizPage"]) {
-        NSArray *indexPaths = [self.collectionView indexPathsForSelectedItems];
-        QuizPageViewController *destViewController = segue.destinationViewController;
-        NSIndexPath *indexPath = [indexPaths objectAtIndex:0];
-        destViewController.wordList = [NSString stringWithFormat:@"%d", indexPath.row + 1];;
-        [self.collectionView deselectItemAtIndexPath:indexPath animated:NO];
-    }
-}
+//- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+//    if ([segue.identifier isEqualToString:@"showQuizPage"]) {
+////        NSArray *indexPaths = [self.collectionView indexPathsForSelectedItems];
+////        QuizTableViewControllerViewController *destViewController = segue.destinationViewController;
+////        NSIndexPath *indexPath = [indexPaths objectAtIndex:0];
+////        destViewController.wordList = [NSString stringWithFormat:@"%d", indexPath.row + 1];;
+////        [self.collectionView deselectItemAtIndexPath:indexPath animated:NO];
+//    }
+//}
 
 @end

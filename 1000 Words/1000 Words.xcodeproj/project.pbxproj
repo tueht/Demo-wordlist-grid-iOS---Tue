@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		333C275418D033A200E5A0CC /* QuizTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 333C275318D033A200E5A0CC /* QuizTableViewController.m */; };
+		333C275618D03E0900E5A0CC /* sound.png in Resources */ = {isa = PBXBuildFile; fileRef = 333C275518D03E0900E5A0CC /* sound.png */; };
 		33848E2418CD906B008B2560 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33848E2318CD906B008B2560 /* Foundation.framework */; };
 		33848E2618CD906B008B2560 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33848E2518CD906B008B2560 /* CoreGraphics.framework */; };
 		33848E2818CD906B008B2560 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33848E2718CD906B008B2560 /* UIKit.framework */; };
@@ -32,6 +34,7 @@
 		33848E6C18CD9C62008B2560 /* star_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 33848E6718CD9C62008B2560 /* star_3.png */; };
 		33848E7218CDA2CC008B2560 /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33848E7118CDA2CC008B2560 /* QuizViewController.m */; };
 		33848E7518CDA663008B2560 /* QuizPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33848E7418CDA663008B2560 /* QuizPageViewController.m */; };
+		33DF50C018D069F000804B53 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 33DF50BF18D069F000804B53 /* back.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		333C275218D033A200E5A0CC /* QuizTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizTableViewController.h; sourceTree = "<group>"; };
+		333C275318D033A200E5A0CC /* QuizTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizTableViewController.m; sourceTree = "<group>"; };
+		333C275518D03E0900E5A0CC /* sound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sound.png; sourceTree = "<group>"; };
 		33848E2018CD906B008B2560 /* 1000 Words.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1000 Words.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33848E2318CD906B008B2560 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		33848E2518CD906B008B2560 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,6 +85,7 @@
 		33848E7118CDA2CC008B2560 /* QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
 		33848E7318CDA663008B2560 /* QuizPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizPageViewController.h; sourceTree = "<group>"; };
 		33848E7418CDA663008B2560 /* QuizPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizPageViewController.m; sourceTree = "<group>"; };
+		33DF50BF18D069F000804B53 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +112,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		333C274E18D0330D00E5A0CC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				33DF50BF18D069F000804B53 /* back.png */,
+				333C275518D03E0900E5A0CC /* sound.png */,
+				33848E6318CD9C62008B2560 /* grid_item_background_done.png */,
+				33848E6418CD9C62008B2560 /* grid_item_background_undone.png */,
+				33848E6518CD9C62008B2560 /* star_1.png */,
+				33848E6618CD9C62008B2560 /* star_2.png */,
+				33848E6718CD9C62008B2560 /* star_3.png */,
+				33848E5E18CD92FD008B2560 /* background.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		333C274F18D0332300E5A0CC /* app */ = {
+			isa = PBXGroup;
+			children = (
+				33848E3218CD906B008B2560 /* AppDelegate.h */,
+				33848E3318CD906B008B2560 /* AppDelegate.m */,
+				33848E3B18CD906B008B2560 /* ViewController.h */,
+				33848E3C18CD906B008B2560 /* ViewController.m */,
+				33848E5B18CD9141008B2560 /* WordListCollectionViewController.h */,
+				33848E5C18CD9141008B2560 /* WordListCollectionViewController.m */,
+				33848E7018CDA2CC008B2560 /* QuizViewController.h */,
+				33848E7118CDA2CC008B2560 /* QuizViewController.m */,
+				33848E7318CDA663008B2560 /* QuizPageViewController.h */,
+				33848E7418CDA663008B2560 /* QuizPageViewController.m */,
+				333C275218D033A200E5A0CC /* QuizTableViewController.h */,
+				333C275318D033A200E5A0CC /* QuizTableViewController.m */,
+			);
+			name = app;
+			sourceTree = "<group>";
+		};
+		333C275018D0334100E5A0CC /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				33848E3518CD906B008B2560 /* Main_iPhone.storyboard */,
+				33848E3818CD906B008B2560 /* Main_iPad.storyboard */,
+			);
+			name = storyboard;
+			sourceTree = "<group>";
+		};
+		333C275118D0336500E5A0CC /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				33848E6018CD95DA008B2560 /* WordList.h */,
+				33848E6118CD95DA008B2560 /* WordList.m */,
+			);
+			name = entity;
+			sourceTree = "<group>";
+		};
 		33848E1718CD906B008B2560 = {
 			isa = PBXGroup;
 			children = (
@@ -138,28 +197,12 @@
 		33848E2918CD906B008B2560 /* 1000 Words */ = {
 			isa = PBXGroup;
 			children = (
-				33848E6318CD9C62008B2560 /* grid_item_background_done.png */,
-				33848E6418CD9C62008B2560 /* grid_item_background_undone.png */,
-				33848E6518CD9C62008B2560 /* star_1.png */,
-				33848E6618CD9C62008B2560 /* star_2.png */,
-				33848E6718CD9C62008B2560 /* star_3.png */,
-				33848E5E18CD92FD008B2560 /* background.png */,
-				33848E3218CD906B008B2560 /* AppDelegate.h */,
-				33848E3318CD906B008B2560 /* AppDelegate.m */,
-				33848E3518CD906B008B2560 /* Main_iPhone.storyboard */,
-				33848E3818CD906B008B2560 /* Main_iPad.storyboard */,
-				33848E3B18CD906B008B2560 /* ViewController.h */,
-				33848E3C18CD906B008B2560 /* ViewController.m */,
+				333C275118D0336500E5A0CC /* entity */,
+				333C275018D0334100E5A0CC /* storyboard */,
+				333C274F18D0332300E5A0CC /* app */,
+				333C274E18D0330D00E5A0CC /* images */,
 				33848E3E18CD906B008B2560 /* Images.xcassets */,
 				33848E2A18CD906B008B2560 /* Supporting Files */,
-				33848E5B18CD9141008B2560 /* WordListCollectionViewController.h */,
-				33848E5C18CD9141008B2560 /* WordListCollectionViewController.m */,
-				33848E6018CD95DA008B2560 /* WordList.h */,
-				33848E6118CD95DA008B2560 /* WordList.m */,
-				33848E7018CDA2CC008B2560 /* QuizViewController.h */,
-				33848E7118CDA2CC008B2560 /* QuizViewController.m */,
-				33848E7318CDA663008B2560 /* QuizPageViewController.h */,
-				33848E7418CDA663008B2560 /* QuizPageViewController.m */,
 			);
 			path = "1000 Words";
 			sourceTree = "<group>";
@@ -277,8 +320,10 @@
 				33848E3718CD906B008B2560 /* Main_iPhone.storyboard in Resources */,
 				33848E6B18CD9C62008B2560 /* star_2.png in Resources */,
 				33848E2E18CD906B008B2560 /* InfoPlist.strings in Resources */,
+				33DF50C018D069F000804B53 /* back.png in Resources */,
 				33848E6A18CD9C62008B2560 /* star_1.png in Resources */,
 				33848E6C18CD9C62008B2560 /* star_3.png in Resources */,
+				333C275618D03E0900E5A0CC /* sound.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +346,7 @@
 				33848E5D18CD9141008B2560 /* WordListCollectionViewController.m in Sources */,
 				33848E3D18CD906B008B2560 /* ViewController.m in Sources */,
 				33848E6218CD95DA008B2560 /* WordList.m in Sources */,
+				333C275418D033A200E5A0CC /* QuizTableViewController.m in Sources */,
 				33848E3418CD906B008B2560 /* AppDelegate.m in Sources */,
 				33848E3018CD906B008B2560 /* main.m in Sources */,
 				33848E7218CDA2CC008B2560 /* QuizViewController.m in Sources */,
@@ -443,6 +489,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "1000 Words/1000 Words-Prefix.pch";
 				INFOPLIST_FILE = "1000 Words/1000 Words-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -456,6 +503,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "1000 Words/1000 Words-Prefix.pch";
 				INFOPLIST_FILE = "1000 Words/1000 Words-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -522,6 +570,7 @@
 				33848E5718CD906B008B2560 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33848E5818CD906B008B2560 /* Build configuration list for PBXNativeTarget "1000 WordsTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +579,7 @@
 				33848E5A18CD906B008B2560 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
